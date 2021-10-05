@@ -4,11 +4,11 @@ import './Scholarship.css';
 
 const Scholarship = () => {
   const [scholarships, setScholarships] = useState([]);
-  const url = "fakedata.JSON";
+  // const url = "fakedata.json";
   useEffect(() => {
-    fetch(url)
+    fetch('fakedata.json')
       .then(res => res.json())
-      .then(data => setScholarships(data)
+      .then(data => console.log(data)
       )
   }, [])
 

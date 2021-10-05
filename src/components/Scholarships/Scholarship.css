@@ -1,5 +1,4 @@
 .card-container img{
-  background-color: teal;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }

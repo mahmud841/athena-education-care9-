@@ -22,11 +22,6 @@ function App() {
           <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/mentor">Mentor</NavLink>
           <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/mentor">Scholarships</NavLink>
         </div>
-
-
-
-
-
         <Switch>
       <Route exact path="/about">
         <About></About>
