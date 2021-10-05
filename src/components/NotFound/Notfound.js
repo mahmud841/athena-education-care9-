@@ -1,13 +1,13 @@
 import React from 'react';
-import './Notfound.css';
+import './NotFound.css';
 
 const Notfound = () => {
-    return (
-        <div>
-            <h2>This page is Not Found-404</h2>
-            <p>You can't find anything here </p>
-        </div>
-    );
+  return (
+    <div className="notfound-container">
+        <h1>This is showing you 404</h1>
+        <h5>Find your content another place </h5>
+    </div>
+  );
 };
 
 export default Notfound;
