@@ -1,9 +1,9 @@
 import React from 'react';
-import "./Home.css"
+import './Home.css';
 
 const Home = () => {
     return (
-        <div>
+        <div className="container">
             <h2 className="text-center text-secondary">This is one the famous coaching Centre in Bangladesh</h2>
         </div>
     );

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Mentors from '../Mentors/Mentors';
-import "./Mentor.css"
+import './Mentor.css';
 
 const Mentor = () => {
     const [mentors, setmentors] = useState([])

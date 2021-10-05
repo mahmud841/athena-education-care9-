@@ -1,17 +1,3 @@
-/* import React from 'react';
-import './Footer.css'
-
-const Footer = () => {
-    return (
-        <div>
-            <p className="text-center">Copyright protected ©
-                <small>Developed by Mahmud Khan </small></p>
-        </div>
-    );
-};
-
-export default Footer; */
-
 
 import React from 'react';
 import './Footer.css';

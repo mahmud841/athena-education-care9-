@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Courses from '../Courses/Courses';
-import "./Course.css"
+import './Course.css';
 
 const Course = () => {
     const [courses, setcourses] = useState([])
@@ -10,7 +10,7 @@ const Course = () => {
             .then(data => setcourses(data))
     }, [])
     return (
-        <div>
+        <div className="course-container">
             <h1 className="text-center"> Total Courses:{courses.length}</h1>
             {
                 courses.map(course => <Courses 
