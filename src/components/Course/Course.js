@@ -3,6 +3,7 @@ import Courses from '../Courses/Courses';
 import './Course.css';
 
 const Course = () => {
+    //*****************Data loading and Use that data****************** 
     const [courses, setcourses] = useState([])
     useEffect(() => {
         fetch("./course.json")
@@ -10,6 +11,7 @@ const Course = () => {
             .then(data => setcourses(data))
     }, [])
     return (
+        //**********************Container Card***************** 
         <div className="tag">
             <h1 className="text-center"> Total Courses:{courses.length}</h1>
            <div className="course-container">

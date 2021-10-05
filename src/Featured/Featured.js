@@ -3,6 +3,7 @@ import './Featured.css';
 
 
 const Featured = (props) => {
+  //*****************Destructuring Properties************** 
   const { name, price, duration, modeltest, img } = props.course;
   return (
     <div className="featured-course-part card h-100">
@@ -19,7 +20,6 @@ const Featured = (props) => {
         <button className="view-button">Add to Cart</button>
       </div>
     </div>
-
   );
 };
 

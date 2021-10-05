@@ -1,3 +1,4 @@
+/***************************Course Style********************/
 .course-container{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -13,3 +14,4 @@
   color: rgb(62, 122, 122);
   font-style: italic;
 }
+/*******************Complete Style ***********************/

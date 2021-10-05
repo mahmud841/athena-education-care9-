@@ -2,6 +2,7 @@ import React from 'react';
 import './Courses.css';
 
 const Courses = (props) => {
+    //**********************Destructuring Props**********************      
     const { name, price, duration, modeltest, img } = props.course;
     return (
         <div className="course-part">
@@ -16,11 +17,6 @@ const Courses = (props) => {
                     <button>Add to Cart</button>
                 </div>
             </div>
-       
-
-
-
-        
     );
 };
 

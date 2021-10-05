@@ -7,7 +7,7 @@ import Featured2 from '../../Featured2/Featured2';
 
 const Home = () => {
     return (
-       <div className="header">
+       <div className="header-home">
             <div className="container">
              <div className="row my-5">
                     {/*******************Home Menu***************/}

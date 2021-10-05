@@ -2,6 +2,7 @@ import React from 'react';
 import "./Mentors.css"
 
 const Mentors = (props) => {
+    //********************Destructuring Properties***************** 
     const { name, email, img, address, title } = props.mentor;
     return (
         <div className="mentor-cart">

@@ -12,9 +12,7 @@
   margin-left: 0;    
   margin-top: 9px;     
   content:"";    
-  /* display: block;     */
   width: 100px;        
-  
 }
 
 .card-footer .get-in-touch i{  
@@ -25,7 +23,6 @@
 
 .card-footer .search input{  
   width: 100%;
-  /* display: block;   */
   background-color: transparent;
   border: none;
   border-bottom: 2px solid rgb(247, 240, 240);
