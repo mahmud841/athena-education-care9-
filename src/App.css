@@ -36,9 +36,15 @@
   margin: auto;
   font-style: italic;
   font-weight: 700;
-  flex-direction: row;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ 
 }
-
+.menuBar-img{
+  width: 100%;
+  display: flex;
+}
 
 
 

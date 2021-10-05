@@ -1,4 +1,5 @@
 .notfound-container{
-  color: brown;
-  background-color: rgb(161, 233, 199);
+  color: rgb(44, 33, 33);
+  background-color: rgb(218, 230, 224);
+  font-style: italic;
 }

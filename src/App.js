@@ -9,7 +9,8 @@ import Home from './components/Home/Home';
 import Mentor from './components/Mentor/Mentor';
 import Scholarship from './components/Scholarships/Scholarship';
 import NotFound from './components/NotFound/NotFound';
-import Stipend from './components/Stipends/Stipend';
+import Images from './Images/logo.png';
+
 
 
 function App() {
@@ -18,8 +19,11 @@ function App() {
       <Header></Header>
       <Router>
         <div className="menu-bar">
+          <div className="menuBar-img">
+          <img src={Images} alt="" />
+          </div>
           <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/home">Home</NavLink>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/about">About</NavLink>
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/about">About </NavLink>
           <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/scholarship">Scholarships</NavLink>
           <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/course">Course</NavLink>
           <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/mentor">Mentor</NavLink>
