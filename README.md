@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This is my Education Care Project [Create React App](https://education-care841.netlify.app).
+This is my Education Care Project [https://education-care841.netlify.app](https://education-care841.netlify.app).
 
 ## Available Scripts
 
