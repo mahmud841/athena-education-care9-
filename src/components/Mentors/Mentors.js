@@ -2,7 +2,7 @@ import React from 'react';
 import "./Mentors.css"
 
 const Mentors = (props) => {
-    const { name, email, img, address, title } = props.mentor
+    const { name, email, img, address, title } = props.mentor;
     return (
         <div className="mentor-cart">
                 <div className="mentor-image text-center">

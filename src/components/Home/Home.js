@@ -9,7 +9,7 @@ const Home = () => {
     return (
        <div className="header">
             <div className="container">
-             <div className="row">
+             <div className="row my-5">
                     {/*******************Home Menu***************/}
                     <div className="col-md-6 col-12 d-flex justify-content-center align-items-center left">
                         <div>

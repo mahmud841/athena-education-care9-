@@ -19,24 +19,26 @@ function App() {
       <Header></Header>
       <Router>
         <div className="menu-bar">
-          <div className="menuBar-img">
-          <img src={Images} alt="" />
+          <div className="container d-flex align-items-center">
+            <div className="menuBar-img">
+              <img src={Images} alt="" />
+            </div>
+            <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/">Home</NavLink>
+            <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/about">About </NavLink>
+            <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/scholarship">Scholarships</NavLink>
+            <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/course">Course</NavLink>
+            <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/mentor">Mentor</NavLink>
+
           </div>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/home">Home</NavLink>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/about">About </NavLink>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/scholarship">Scholarships</NavLink>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/course">Course</NavLink>
-          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/mentor">Mentor</NavLink>
-      
         </div>
         <Switch>
-          <Route exact path="/about">
+          <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/home">
+          <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route path="/about">
+          <Route exact path="/about">
             <About></About>
           </Route>
           <Route exact path="/course">
@@ -48,13 +50,9 @@ function App() {
           <Route exact path="/scholarship">
             <Scholarship></Scholarship>
           </Route>
-          {/* <Route exact path="/stipend">
-            <Stipend></Stipend>
-          </Route> */}
-      
-         <Route path="*">
-           <NotFound></NotFound>
-         </Route>
+          <Route path="*">
+            <NotFound></NotFound>
+          </Route>
         </Switch>
       </Router>
       <div>

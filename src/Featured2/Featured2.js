@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Featured from '../Featured/Featured';
+import './Feature2.css';
 
 const Featured2 = () => {
   const [courses, setcourses] = useState([])
@@ -12,8 +13,8 @@ const Featured2 = () => {
 
   return (
     <div>
-      <h1 className="text-center"> Total Courses:{courses.length}</h1>
-           <div className="course-container">
+      <h1 className="text-center my-3"> Feature Courses</h1>
+           <div className="featured-course-container container">
            {
                 courses.slice(0,4).map(course => <Featured
                     course={course}

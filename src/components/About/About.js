@@ -16,11 +16,13 @@ const About = () => {
             </div>
 
             {/* ------------------    Description   ------------------- */}
-            <h4 className="mt-5">Decades of excellence in the space of education!!</h4>
+           <div className="description">
+           <h4 className="mt-5">Decades of excellence in the space of education!!</h4>
             <p>We guide a perfect way and support to your bright future with confidence by the ideal mix of training and preparation tools. We are conducting specialized training courses for various licensing exams like HAAD, DHA, MOH, PROMETRIC (Saudi, Oman, Qatar), NCLEX-RN, OET and CBT etc. We are also providing online dataflow processing for all health professionals, exam registration, free study materials and expert faculty since 2013. We are proud to announce the mark as the best coaching Centre in south India over 5000 students had their successful story with us. Come and join for a better tomorrow..</p>
                  <h3 className="mt-4">Next Generation Coaching Centre </h3>
            
             <p>Very fast and trustworthy service,We guide a perfect way and support to your bright future with confidence by the ideal mix of training and preparation tools. We are conducting specialized training courses for various licensing exams like HAAD, DHA, MOH, PROMETRIC (Saudi, Oman, Qatar), NCLEX-RN, OET and CBT etc. </p>
+           </div>
         
      
     </div>
