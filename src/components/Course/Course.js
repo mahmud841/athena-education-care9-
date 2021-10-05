@@ -14,7 +14,7 @@ const Course = () => {
             <h1 className="text-center"> Total Courses:{courses.length}</h1>
            <div className="course-container">
            {
-                courses.slice(0,4).map(course => <Courses 
+                courses.map(course => <Courses 
                     course={course}
                     key={course.id}
                     ></Courses>)

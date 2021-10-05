@@ -1,7 +1,8 @@
 import React from 'react';
 import './Home.css';
 import Images from '../../Images/about1.jpg';
-import Scholarship from '../Scholarships/Scholarship';
+import Featured2 from '../../Featured2/Featured2';
+
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Scholarship></Scholarship>
+        <Featured2></Featured2>
        </div>
             
            
