@@ -1,0 +1,10 @@
+.card-container img{
+  background-color: teal;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.Card.Img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 4;
+}

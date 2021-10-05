@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Mentor from './components/Mentor/Mentor';
 import Notfound from './components/NotFound/Notfound';
+import Scholarship from './components/Scholarships/Scholarship';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/about">About</NavLink>
           <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/course">Course</NavLink>
           <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/mentor">Mentor</NavLink>
+          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/mentor">Scholarships</NavLink>
         </div>
 
 
@@ -40,6 +42,9 @@ function App() {
       </Route>
       <Route exact path="/mentor">
         <Mentor></Mentor>
+      </Route>
+      <Route exact path="/scholarship">
+        <Scholarship></Scholarship>
       </Route>
       <Route parh="*">
         <Notfound></Notfound>
