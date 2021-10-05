@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
 import Images from '../../Images/about1.jpg';
+import Scholarship from '../Scholarships/Scholarship';
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Scholarship></Scholarship>
        </div>
             
            

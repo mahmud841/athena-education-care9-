@@ -2,10 +2,10 @@
 .card-footer{  
   background-color:#2e4757; 
   padding: 30px 9px 15px 9px; 
-  color: rgb(247, 234, 234);
-  position: absolute;
-  bottom: 0;
+  color: rgb(247, 234, 234);  
   width: 100%;    
+  position: relative;
+  margin-top: 100px;
 }
 .card-footer .footer-title::after{
   margin-right: auto;
