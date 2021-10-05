@@ -1,0 +1,43 @@
+/***********Custom CSS in Footer***************/
+.card-footer{  
+  background-color:#2e4757; 
+  padding: 30px 9px 15px 9px; 
+  color: rgb(247, 234, 234);
+  position: absolute;
+  bottom: 0;
+  width: 100%;    
+}
+.card-footer .footer-title::after{
+  margin-right: auto;
+  margin-left: 0;    
+  margin-top: 9px;     
+  content:"";    
+  display: block;    
+  width: 100px;        
+  border-top: 3px solid #1ca4e4;
+}
+
+.card-footer .get-in-touch i{  
+  width: 25px;
+  margin-right: 7px;    
+}
+
+
+.card-footer .search input{  
+  width: 100%;
+  display: block;  
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(247, 240, 240);
+  color: rgb(253, 246, 246);
+  margin-bottom: 10px;
+  margin-top: 15px;
+  padding: 3px 5px;
+}
+.card-footer .search button{  
+  background-color:#b2d7f0;
+  border:none;
+}
+.card-footer .search button:hover{  
+  background-color:#50aae6;    
+}
