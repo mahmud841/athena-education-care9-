@@ -20,6 +20,7 @@ function App() {
       <Router>
         <div className="menu-bar">
           <div className="container d-flex align-items-center">
+            {/*******************Navigation Bar**************************/}
             <div className="menuBar-img">
               <img src={Images} alt="" />
             </div>
@@ -28,7 +29,6 @@ function App() {
             <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/scholarship">Scholarships</NavLink>
             <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/course">Course</NavLink>
             <NavLink exact style={{ textDecoration: "none", color: "black", margin: "5px" }} to="/mentor">Mentor</NavLink>
-
           </div>
         </div>
         <Switch>
