@@ -10,16 +10,17 @@ const Course = () => {
             .then(data => setcourses(data))
     }, [])
     return (
-        <div className="course-container">
+        <div className="tag">
             <h1 className="text-center"> Total Courses:{courses.length}</h1>
-            {
+           <div className="course-container">
+           {
                 courses.map(course => <Courses 
                     course={course}
                     key={course.id}
                     ></Courses>)
             }
+           </div>
         </div>
     );
 };
-
 export default Course;

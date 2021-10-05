@@ -16,12 +16,13 @@ function App() {
     <div className="App">
       <Header></Header>
       <Router>
-        <div className="menu-link text-center">
-          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/home">Home</NavLink>
-          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/about">About</NavLink>
-          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/scholarship">Scholarships</NavLink>
-          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/course">Course</NavLink>
-          <NavLink exact style={{ color: "black", textDecoration: "none", margin: "5px" }} to="/mentor">Mentor</NavLink>
+        <div className="menu-bar">
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/home">Home</NavLink>
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/about">About</NavLink>
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/scholarship">Scholarships</NavLink>
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/course">Course</NavLink>
+          <NavLink exact style={{textDecoration:"none", color: "black",  margin: "5px" }} to="/mentor">Mentor</NavLink>
+      
         </div>
         <Switch>
           <Route exact path="/about">

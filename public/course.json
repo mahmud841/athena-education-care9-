@@ -1,14 +1,15 @@
  [
   {
     "id": 1,
-    "name": "IELTS",
-    "duration": 100,
-    "class": 70,
-    "modeltest": 25,
-    "price": 19000,
-    "support": "all possible time",
-    "img": "https://galvanizetestprep.com/wp-content/uploads/2019/12/RAJA-KONDAPALLI-1.png"
+    "name": "Chinese Language ",
+    "duration": 80,
+    "class": 50,
+    "modeltest": 23,
+    "support": "Life time access",
+    "price": 10000,
+    "img": "https://logopond.com/logos/6352c79612ddc672acb47c96fddaae66.png"
   },
+  
   {
     "id": 2,
     "name": "SAT",
@@ -41,13 +42,13 @@
   },
   {
     "id": 5,
-    "name": "Chinese Language ",
-    "duration": 80,
-    "class": 50,
-    "modeltest": 23,
-    "support": "Life time access",
-    "price": 10000,
-    "img": "https://logopond.com/logos/6352c79612ddc672acb47c96fddaae66.png"
+    "name": "IELTS",
+    "duration": 100,
+    "class": 70,
+    "modeltest": 25,
+    "price": 19000,
+    "support": "all possible time",
+    "img": "https://galvanizetestprep.com/wp-content/uploads/2019/12/RAJA-KONDAPALLI-1.png"
   },
   {
     "id": 6,
@@ -118,5 +119,15 @@
     "support": "All Time",
     "price": 6000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3Mp2Y91IFnqJ_cvzQ0aLBP8ljS-YpcnoOACHo-8txiiT6eJmqnE_zP2s0Frzz4ZLllMY&usqp=CAU"
+  },
+  {
+    "id": 13,
+    "name": "French Language",
+    "duration": 60,
+    "class": 35,
+    "modeltest": 150,
+    "support": "All Time",
+    "price": 9000,
+    "img": "https://image.freepik.com/free-vector/hand-drawn-set-hello-word-pattern-different-languages_23-2147862534.jpg"
   }
 ]
