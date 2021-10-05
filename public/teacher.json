@@ -1,75 +1,77 @@
  [
   {
     "id": 1,
-    "name": " Naziat Orpa",
-    "email": "nashrohorpa787@gmail.com",
-    "address": "Dhaka",
-    "title": "Associate Teacher",
-    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489217.png"
+    "name": "Awan Afiaz Khan",
+    "email": "awanafiaz8788@gmail.com",
+    "address": "Dhanmondi,Dhaka",
+    "title": "Physics Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562496793.png"
   },
   {
     "id": 2,
-    "name": "Mahmud Khan",
-    "email": "mahmud6876@gmail.com",
-    "address": "Rangpur,Bangladesh",
-    "title": "Manager Director",
-    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562595886.png"
+    "name": " Naziat Orpa",
+    "email": "nashrohorpa787@gmail.com",
+    "address": "Rajshahi",
+    "title": "Chemistry Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489217.png"
   },
+  
  
   {
     "id": 3,
     "name": "Maliha Ulfat Maliha",
     "email": "maliha54577@gmail.com",
     "address": "uttora,house-35",
-    "title": " Associate Teacher",
+    "title": " Mathematics Teacher",
     "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562508170.png"
   },
   {
     "id": 4,
-    "name": "Sagar Dash",
+    "name": "Sagar Dash Sagor",
     "email": "sagardash6558@gmail.com",
-    "address": "Dhaka,mirpur",
-    "title": "Manager Director",
+    "address": "Dhaka,Mirpur",
+    "title": "Biology Teacher",
     "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489403.png"
   },
   {
     "id": 5,
-    "name": "Jabir Misbah",
+    "name": "Jabir Khan",
     "email": "jabirmisbah668@gmail.com",
-    "address": "Dhaka University",
-    "title": "Manager",
+    "address": "Savar,Dhaka",
+    "title": "ICT Teacher",
     "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489490.png"
   },
   {
     "id": 6,
-    "name": "Shatabdi Roy Anu",
-    "email": "shatabdi787@gmail.com",
-    "address": "Khulna,house-26D block-3",
-    "title": "Manager Director",
-    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562490017.png"
-  },
-  {
-    "id": 7,
-    "name": "Avipsu Das Gupta",
+    "name": "Bipasa Das Gupta",
     "email": "avipsudas768778@gmail.com",
-    "address": "Dhaka",
-    "title": "Associate Teacher",
+    "address": "Chattagram",
+    "title": "Senior Math Teacher",
     "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489822.png"
   },
   {
-    "id": 8,
-    "name": "Awan Afiaz",
-    "email": "awanafiaz8788@gmail.com",
-    "address": "Dhanmondi",
-    "title": "Associate teacher",
-    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562496793.png"
+    "id": 7,
+    "name": "Shatabdi Anu",
+    "email": "shatabdi787@gmail.com",
+    "address": "Dhaka,house-26D block-9",
+    "title": "Drawing Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562490017.png"
   },
+  {
+    "id": 8,
+    "name": "Mahmud Khan Mahmud",
+    "email": "mahmud6876@gmail.com",
+    "address": "Rangpur,Bangladesh",
+    "title": "Mathematics Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562595886.png"
+  },
+  
   {
     "id": 9,
     "name": "Munzereen Shahid",
     "email": "munzereen6257@gmail.com",
     "address": "Dhanmondi,road-32",
-    "title": "English ",
+    "title": "English Teacher",
     "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562398128.png"
   }
 ]

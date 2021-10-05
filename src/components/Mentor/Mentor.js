@@ -11,7 +11,7 @@ const Mentor = () => {
     }, [])
     return (
         <div >
-            <h2 className="text-center"> Mentor:{mentors.length}</h2>
+            <h2 className="tag"> Mentor:{mentors.length}</h2>
             <div className="mentors-container">
 
                 {

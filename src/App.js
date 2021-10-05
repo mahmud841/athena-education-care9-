@@ -9,6 +9,7 @@ import Home from './components/Home/Home';
 import Mentor from './components/Mentor/Mentor';
 import Scholarship from './components/Scholarships/Scholarship';
 import NotFound from './components/NotFound/NotFound';
+import Stipend from './components/Stipends/Stipend';
 
 
 function App() {
@@ -43,6 +44,9 @@ function App() {
           <Route exact path="/scholarship">
             <Scholarship></Scholarship>
           </Route>
+          {/* <Route exact path="/stipend">
+            <Stipend></Stipend>
+          </Route> */}
       
          <Route path="*">
            <NotFound></NotFound>
