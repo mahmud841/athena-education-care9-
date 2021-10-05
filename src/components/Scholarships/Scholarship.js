@@ -3,12 +3,11 @@ import { Card, Col, Row } from 'react-bootstrap';
 import './Scholarship.css';
 
 const Scholarship = () => {
-  const [scholarships, setScholarships] = useState([]);
-  // const url = "fakedata.json";
+  const [scholarships, setScholarships] = useState([])
   useEffect(() => {
-    fetch('fakedata.json')
+    fetch('fakedata.JSON')
       .then(res => res.json())
-      .then(data => console.log(data)
+      .then(data => setScholarships(data)
       )
   }, [])
 
@@ -17,24 +16,23 @@ const Scholarship = () => {
       <h2 className="bg-secondary mt-5">Choice one that could fit with you</h2>
       <div className="card-container">
         {
-          scholarships.map(scholarship => <div> 
+          scholarships.map(scholarship => <div>
 
-            <Row xs={1} md={2} className="g-4 ">
-              <Col>
-                <Card>
-                  <Card.Img variant="top" src={scholarship.img} />
-                  <Card.Body>
-                    <Card.Title>University Name:{scholarship.name}  </Card.Title>
-                    <Card.Text>
-                    <h5> Scholarship Type:{scholarship.type} </h5>
-                    <h5>World Rank:{scholarship.rank} </h5>
-                    <h5>Subjects:{scholarship.Subjects} </h5>
-                    <p> Location: {scholarship.Location} </p>
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
-              </Col>
-            </Row>
+            <Card className="card-body">
+              <div className="img-container">
+              <Card.Img variant="top holder.js/100px160" src={scholarship.img} />
+              </div>
+              <Card.Body className="card-container">
+                <Card.Title>Name:{scholarship.name} </Card.Title>
+                <h3>Type:{scholarship.type} </h3>
+                <h3>Rank: {scholarship.rank} </h3>
+                <h5>Subjects:{scholarship.subjects}  </h5>
+                <h5>Location:{scholarship.location} </h5>
+              </Card.Body>
+              <Card.Footer>
+                <p className="view-button">View Details</p>
+              </Card.Footer>
+            </Card>
           </div>)
         };
       </div>

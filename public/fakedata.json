@@ -5,8 +5,8 @@
     "img":"https://www.newagebd.com/files/records/news/202107/144238_158.jpg",
      "type":"Full free",
      "rank":"2500",
-     "Subjects":"All Subjects Available",
-     "Location": "Bangladesh"
+     "subjects":"All Subjects Available",
+     "location": "Bangladesh"
   },
   {
     "id":"2",
@@ -14,8 +14,8 @@
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThgy9Fqk9hLu8uoBSvYAjzolsXYDYHrKdAKA&usqp=CAU",
      "type":"Full free",
      "rank":"9",
-     "Subjects":"All Subjects Available",
-     "Location": "Beijing, China"
+     "subjects":"All Subjects Available",
+     "location": "Beijing, China"
   },
   {
     "id":"3",
@@ -23,8 +23,8 @@
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_Q3UnM1KEZUfBYR68Bybxa4aL24RVmYCuYQ&usqp=CAU",
      "type":"Full free",
      "rank":"17",
-     "Subjects":"All Subjects Available",
-     "Location": "Fudan, China"
+     "subjects":"All Subjects Available",
+     "location": "Fudan, China"
   },
   {
     "id":"4",
@@ -32,8 +32,8 @@
     "img":"https://seeklogo.com/images/U/university-of-sydney-logo-9B16DBB29E-seeklogo.com.gif",
      "type":"Tution Fee Free",
      "rank":"157",
-     "Subjects":"All Subjects Available",
-     "Location": "Sydney,Australia"
+     "subjects":"All Subjects Available",
+     "location": "Sydney,Australia"
   },
   {
     "id":"5",
@@ -41,8 +41,8 @@
     "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP5cympp0FTnRtOt6SEcYVpM-r66uHtZZ_J_ZESDrHFtZM4d035AWq9Ww2qlUpBBnm5Hk&usqp=CAU",
      "type":"Partial",
      "rank":"25",
-     "Subjects":"All Subjects Available",
-     "Location": "Canada"
+     "subjects":"All Subjects Available",
+     "location": "Canada"
   }
  
 ]
